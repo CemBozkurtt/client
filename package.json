@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/CemBozkurtt/client", 
+  "homepage": "https://CemBozkurtt.github.io/client", 
   "scripts": {
     "deploy": "gh-pages -d dist",
     "build": "vite build" 
