@@ -1,7 +1,7 @@
 import React from 'react';
 import project1 from './assets/project1.png';
 import project2 from './assets/project2.png';
-import musicPlayer from './assets/project3.png'; // Replace with your actual music player image file name
+import musicPlayer from './assets/project3.png';
 
 const Projects = () => {
   return (
@@ -31,8 +31,8 @@ const Projects = () => {
         <div className="project">
           <img src={musicPlayer} alt="Music Player App" style={{ width: '350px', borderRadius: '5%' }} />
           <p>A C# music player application that allows users to download and play their favorite songs with an easy-to-use interface. (Sample songs of my choosing are included for testing purposes :) )</p>
-          {/* Download link for the Music Player App */}
-          <a href="/mysetup.exe" download>
+          {/* Download link for the Music Player App using Google Drive */}
+          <a href="https://drive.google.com/file/d/1o0JM35Ugv-M87oMTlyos55pFyVHKW0E3/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
             Click here to download the Music Player App
           </a>
         </div>
